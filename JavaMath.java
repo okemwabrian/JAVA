@@ -35,6 +35,7 @@ public class JavaMath {
         System.out.println("Square root of 25: " + Math.sqrt(25));
         System.out.println("Square root of 49: " + Math.sqrt(49));
         System.out.println("Square root of 64: " + Math.sqrt(64));
+        
 
 
         //rounding examples
