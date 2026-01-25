@@ -30,9 +30,9 @@ public class JavaArrays {
 
         // Looping through a multi-dimensional array
         System.out.println("Matrix elements:");
-        for (int i = 0; i < matrix.length; i++) {
-            for (int j = 0; j < matrix[i].length; j++) {
-                System.out.print(matrix[i][j] + " ");
+        for (int[] row : matrix) {
+            for (int element : row) {
+                System.out.print(element + " ");
             }
             System.out.println();
         }
